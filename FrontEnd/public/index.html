@@ -3,9 +3,14 @@
     <head>
         <link rel="stylesheet" href="index.css" />
         <link rel="stylesheet" href="../src/styling/dropdown.css" />
-        <script src="../src/js/scripts.js"></script>
-        <script src="../src/js/loadItems.js"></script>
         <link rel="stylesheet" href="../src/styling/osrs-font.css" />
+        <link rel="stylesheet" href="../../node_modules/select2/dist/css/select2.min.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../../node_modules/select2/dist/js/select2.min.js"></script>
+        <script src="../src/js/scripts.js"></script>
+        <script src="../src/js/select2Functions.js"></script>
+    
     </head>
     <body onload="getGearFetch()">
         <h1 class="os-font os-font-yellow">OSRS Gear Emulator</h1>
@@ -17,6 +22,10 @@
                 <a href="#">Link 3</a>
             </div>
         </div>
+        <select class="js-data-example-ajax" name="head">Head</select>
+        <select class=".js-example-basic-single" name="body">Body
+            <option value="AL">Alabama</option>
+        </select>
         <div id="root"></div>
     </body>
 </html>

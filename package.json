@@ -1,0 +1,29 @@
+{
+  "name": "osrswebapp",
+  "version": "1.0.0",
+  "description": "osrsGearCreator",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mm413/osrsWebApp.git"
+  },
+  "keywords": [
+    "osrs"
+  ],
+  "author": "mm413",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mm413/osrsWebApp/issues"
+  },
+  "homepage": "https://github.com/mm413/osrsWebApp#readme"
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="../src/styling/dropdown.css" />
+        <script src="../src/js/scripts.js"></script>
+        <script src="../src/js/loadItems.js"></script>
+        <link rel="stylesheet" href="../src/styling/osrs-font.css" />
+    </head>
+    <body onload="getGearFetch()">
+        <h1 class="os-font os-font-yellow">OSRS Gear Emulator</h1>
+        <div class="dropdown">
+            <button onclick="headButtonClick()" class="dropbtn">Head</button>
+            <div id="headDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div id="root"></div>
+    </body>
+</html>
